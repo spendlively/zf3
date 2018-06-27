@@ -1,0 +1,18 @@
+
+//Установка docker
+sudo apt install docker-compose
+
+//Запуск сервиса
+sudo service docker start
+
+//Скачивание образа
+sudo docker-compose build
+//sudo docker-compose up -d --build
+
+//Запуск
+sudo docker-compose up
+//sudo docker-compose up -d //демонизировать
+
+//Остановка
+sudo docker-compose down
+

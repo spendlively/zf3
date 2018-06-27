@@ -18,7 +18,8 @@ return [
 //    ],
     'db' => [
         'driver' => 'Pdo',
-        'dsn' => 'mysql:host=localhost;dbname=rsduadmin;charset=utf8',
+//        'dsn' => 'mysql:host=localhost;dbname=rsduadmin;charset=utf8',
+        'dsn' => 'mysql:host=192.168.20.107;dbname=rsduadmin;charset=utf8',
         'username' => 'rsduadmin',
         'password' => 'passme',
     ],
